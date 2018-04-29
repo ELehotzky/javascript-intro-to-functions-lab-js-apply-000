@@ -17,11 +17,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  var uppercase = 'HELLO!';
-  var lowercase = 'hello!';
-  uppercase.toUpperCase() === uppercase;
-  lowercase.toLowerCase() === lowercase;
-  if (string === string.toLoweCase()) {
+  if (string === string.toLowerCase()) {
     return "I can't hear you!";
   } else if (string === string.toUpperCase()) {
       return "YES INDEED!"; 
