@@ -1,4 +1,3 @@
-var string;
 var uppercase = "HELLO!";
 var lowercase = "hello!";
 uppercase.toUpperCase() === uppercase;
