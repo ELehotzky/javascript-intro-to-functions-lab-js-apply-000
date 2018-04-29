@@ -1,7 +1,4 @@
-var uppercase = "HELLO!";
-var lowercase = "hello!";
-uppercase.toUpperCase() === uppercase;
-lowercase.toLowerCase() === lowercase;
+
 
 function shout(string) {
   return string.toUpperCase();
@@ -20,6 +17,10 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
+  var uppercase = "HELLO!";
+  var lowercase = "hello!";
+  uppercase.toUpperCase() === uppercase;
+  lowercase.toLowerCase() === lowercase;
   if (string === lowercase) {
     return "I can't hear you!";
   } else if (string === uppercase) {
